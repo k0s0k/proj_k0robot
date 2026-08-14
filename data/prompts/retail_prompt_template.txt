@@ -1,0 +1,60 @@
+# ============================================================================
+# 零售抓取场景 Prompt 模板
+# 对应 README.md 第 3.4 节
+#
+# 格式: "The robot arm is performing a task. Use the right hand to pick up
+#        <商品名> from <货架位置> to <目标位置>."
+# ============================================================================
+
+# === 货架位置模板 ===
+# top level of supermarket shelf      - 货架顶层
+# middle shelf of convenience store   - 便利店中层货架
+# bottom shelf of grocery aisle       - 杂货通道底层货架
+# eye-level shelf of retail display   - 零售展示架视线高度层
+
+# === 目标位置模板 ===
+# shopping cart                       - 购物车
+# plastic basket                      - 塑料购物篮
+# conveyor belt at checkout           - 收银台传送带
+# paper bag                           - 纸袋
+
+# === 商品类别模板 ===
+# 包装食品:
+# cereal box                          - 麦片盒
+# canned soup                         - 罐装汤
+# bag of chips                        - 薯片袋
+# box of cookies                      - 饼干盒
+
+# 饮料:
+# bottled water                       - 瓶装水
+# soda can                            - 汽水罐
+# milk carton                         - 牛奶盒
+# juice bottle                        - 果汁瓶
+
+# 日用品:
+# bottle of shampoo                   - 洗发水瓶
+# box of detergent                    - 洗衣粉盒
+# roll of paper towels               - 厨房纸巾卷
+
+# 生鲜:
+# bag of apples                       - 苹果袋
+# head of lettuce                     - 生菜
+# bunch of bananas                    - 香蕉
+
+# === 完整 Prompt 示例 ===
+
+# 示例 1: 包装食品从顶层货架到购物车
+# "The robot arm is performing a task. Use the right hand to pick up
+#  cereal box from top level of supermarket shelf to shopping cart."
+
+# 示例 2: 饮料从中层货架到购物篮
+# "The robot arm is performing a task. Use the right hand to pick up
+#  bottled water from middle shelf of convenience store aisle to plastic basket."
+
+# 示例 3: 日用品从底层货架到购物车
+# "The robot arm is performing a task. Use the right hand to pick up
+#  bottle of shampoo from bottom shelf of grocery aisle to shopping cart."
+
+# 示例 4: 罐装食品从视线高度层到购物篮
+# "The robot arm is performing a task. Use the right hand to pick up
+#  canned soup from eye-level shelf of retail display to plastic basket."

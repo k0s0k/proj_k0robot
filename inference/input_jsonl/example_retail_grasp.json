@@ -1,0 +1,10 @@
+{
+    "name": "retail_grasp_cereal_top_shelf",
+    "inference_type": "image2world",
+    "prompt": "The robot arm is performing a task. Use the right hand to pick up cereal box from top level of supermarket shelf to shopping cart.",
+    "input_path": "inference/input_images/shelf_top_001.png",
+    "num_output_frames": 93,
+    "resolution": "432,768",
+    "seed": 0,
+    "guidance": 7
+}

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Logs / metrics / models / outputs
+*.log
+logs/
+metrics/
+models/
+outputs/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+*.engine
+*.bin
+
+# Raw datasets and model artifacts
+data/gr1_baseline/
+data/retail/
+data/metadata/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+token
+credentials
+credentials.json
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
